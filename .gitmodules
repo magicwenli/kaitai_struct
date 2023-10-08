@@ -9,10 +9,12 @@
 	url = https://github.com/kaitai-io/kaitai_struct_ruby_runtime.git
 [submodule "tests"]
 	path = tests
-	url = https://github.com/kaitai-io/kaitai_struct_tests.git
+	url = https://github.com/Agile86/kaitai_struct_tests.git
+	branch = rust_basic_support_v2
 [submodule "compiler"]
 	path = compiler
-	url = https://github.com/kaitai-io/kaitai_struct_compiler.git
+	url = https://github.com/Agile86/kaitai_struct_compiler.git
+	branch = rust_basic_support_v2
 [submodule "runtime/javascript"]
 	path = runtime/javascript
 	url = https://github.com/kaitai-io/kaitai_struct_javascript_runtime.git
@@ -21,7 +23,11 @@
 	url = https://github.com/kaitai-io/kaitai_struct_cpp_stl_runtime.git
 [submodule "runtime/csharp"]
 	path = runtime/csharp
-	url = https://github.com/kaitai-io/kaitai_struct_csharp_runtime
+	url = https://github.com/kaitai-io/kaitai_struct_csharp_runtime.git
+[submodule "runtime/rust"]
+	path = runtime/rust
+	url = https://github.com/Agile86/kaitai_rust.git
+	branch = rust_basic_support_v2
 [submodule "formats"]
 	path = formats
 	url = https://github.com/kaitai-io/kaitai_struct_formats.git
