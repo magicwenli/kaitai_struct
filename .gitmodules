@@ -51,3 +51,7 @@
 [submodule "runtime/nim"]
 	path = runtime/nim
 	url = https://github.com/kaitai-io/kaitai_struct_nim_runtime
+[submodule "compiler"]
+	path = compiler
+	url = https://github.com/Agile86/kaitai_struct_compiler.git
+	branch = rust_basic_support_v2
