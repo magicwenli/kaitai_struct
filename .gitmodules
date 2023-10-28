@@ -11,10 +11,6 @@
 	path = tests
 	url = https://github.com/Agile86/kaitai_struct_tests.git
 	branch = rust_basic_support_v2
-[submodule "compiler"]
-	path = compiler
-	url = https://github.com/Agile86/kaitai_struct_compiler.git
-	branch = rust_basic_support_v2
 [submodule "runtime/javascript"]
 	path = runtime/javascript
 	url = https://github.com/kaitai-io/kaitai_struct_javascript_runtime.git
